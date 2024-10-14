@@ -1,0 +1,54 @@
+/* src/components/Navbar.css */
+
+.navbar {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    max-width: 100%;
+    backdrop-filter: blur(15px);
+    background-color: rgba(255, 255, 255, 0.85);
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.navbar-logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-image {
+    width: 50px;
+    height: auto;
+    object-fit: contain;
+    transition: transform 0.5s;
+}
+
+.logo-image:hover {
+    transform: rotate(360deg); /* Adiciona animação de rotação */
+}
+
+.navbar-links {
+    display: flex;
+    gap: 20px;
+    margin-left: 1390px; 
+}
+
+.nav-link {
+    color: #616161; 
+    font-size: 15px;
+    text-decoration: none;
+    opacity: 1;
+    transition: opacity 0.3s;
+}
+
+.nav-link:hover {
+    opacity: 0.7;
+}
+
+.navbar-bottom-line {
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.08);
+    margin-top: 1rem;
+}
