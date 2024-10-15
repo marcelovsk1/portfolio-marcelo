@@ -17,11 +17,11 @@ const Intro = () => {
         </div>
         <div className="intro-bar"></div>
         <div className='sub-title'>
-        <p className="intro-text bottom-right">
-          I craft simplicity, inspire experiences.
-          <br />
-          <a href="/about" className="intro-link">More about me</a> →
-        </p>
+          <p className="intro-text bottom-right">
+            I craft simplicity, inspire experiences.
+            <br />
+            <a href="#about" className="intro-link">More about me</a> →
+          </p>
         </div>
       </div>
     </div>

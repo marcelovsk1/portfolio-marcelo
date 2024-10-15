@@ -3,6 +3,7 @@
     "@react-three/drei": "^9.114.3",
     "@react-three/fiber": "^8.17.10",
     "react-helmet": "^6.1.0",
+    "react-router-dom": "^6.27.0",
     "three": "^0.169.0"
   }
 }

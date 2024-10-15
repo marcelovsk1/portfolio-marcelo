@@ -1,0 +1,78 @@
+.about-section {
+    width: 100%;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    color: #333;
+    font-family: "system-ui", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-title {
+    font-size: 36px;
+    font-weight: 600;
+    color: #1d1d1f;
+    margin-bottom: 1rem;
+}
+
+.about-description {
+    font-size: 18px;
+    font-weight: 300;
+    color: #4f5054;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+}
+
+.about-item {
+    border-bottom: 1px solid #ebebeb;
+    padding: 1rem 0;
+}
+
+.item-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: #313131;
+    cursor: pointer;
+}
+
+.icon-wrapper {
+    font-size: 24px;
+    color: #616161;
+    transition: transform 0.3s ease;
+}
+
+.item-content {
+    transform: scaleY(0);
+    transform-origin: top;
+    opacity: 0;
+    overflow: hidden;
+    height: auto;
+    transition: transform 0.4s ease, opacity 0.4s ease;
+  }
+  
+  .item-content.expanded {
+    transform: scaleY(1);
+    opacity: 1;
+  }
+  
+
+.item-header:hover .icon-wrapper {
+    transform: rotate(90deg);
+}
+
+/* Show content when the section is active */
+.about-item.active .item-content {
+    display: block;
+}
+
+
+/* About.css */
+
+
+  

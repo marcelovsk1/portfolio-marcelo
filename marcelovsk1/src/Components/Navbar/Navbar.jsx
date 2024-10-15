@@ -2,7 +2,7 @@
 
 import React from 'react';
 import './Navbar.css';
-import logoImage from '../Assets/img/globe-seeklogo.svg'; // Caminho relativo para o SVG
+import logoImage from '../Assets/img/globe-seeklogo.svg'; 
 
 const Navbar = () => {
   return (
@@ -23,7 +23,7 @@ const Navbar = () => {
         <a href="/" className="nav-link">Craft</a>
         <a href="/" className="nav-link">Lab</a>
         <a href="/about" className="nav-link">About</a>
-        <a href="https://drive.google.com/file/d/1tDqy6FN7sBxtxvrkF8Z_dqyOoUWeoZQH/view?usp=sharing" target="_blank" rel="noopener" className="nav-link">CV</a>
+        <a href="https://flowcv.com/resume/p29t6q3gne" target="_blank" rel="noopener" className="nav-link">CV</a>
       </div>
 
       {/* Linha de Fundo */}

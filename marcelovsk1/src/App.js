@@ -4,10 +4,12 @@ import Navbar from "./Components/Navbar/Navbar"
 import './App.css';
 import Intro from "./Components/Intro/Intro"
 import Craft from "./Components/Craft/Crafts"
+import About from "./Components/About/About";
 // import Experience from "./Components//Experience/Experience";
 // import Projects from "./Components/Projects/Projects";
 // import Contact from "./Components/Contact/Contact";
-// import Footer from "./Components/Footer/Footer";
+import Footer from "./Components/Footer/Footer";
+
 
 
 function App() {
@@ -22,11 +24,12 @@ function App() {
       </Helmet>
       <Navbar/>
       <Intro />
+      <About />
       <Craft />
       {/* <Experience /> */}
       {/* <Projects /> */}
       {/* <Contact /> */}
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
